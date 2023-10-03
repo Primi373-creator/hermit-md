@@ -10,12 +10,12 @@
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": ""
+      "value": "10_03_H_E_R_M_I_T_JUSFI4O"
     },
     "SUDO": {
       "description": "owner number of the bot",
       "required": true,
-      "value": "null"
+      "value": "2348114860536"
     },
     "MODE": {
       "description": "mode public or private",
