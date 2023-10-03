@@ -25,7 +25,7 @@
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered",
@@ -48,7 +48,7 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "ʜᴇʀᴍɪᴛ;promdev;2348114860536;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
@@ -73,7 +73,7 @@
     "REJECT_CALL": {
       "description": "automatic reject call",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "WARN": {
       "description": "warn count",
