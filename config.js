@@ -16,7 +16,7 @@ process.env.NODE_OPTIONS = '--max_old_space_size=2560'
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
 module.exports = {
 	VERSION: 'v4.4.1', 
-    SESSION_ID: process.env.SESSION_ID || '01_18_H_E_R_M_I_T_XU_O39K',
+    SESSION_ID: process.env.SESSION_ID || '01_18_H_E_R_M_I_T_QC_3NHO',
     MODE: (process.env.MODE || 'private').toLowerCase(),
     HANDLERS: (process.env.PREFIX || '#').trim(),
     SEND_READ: (process.env.READ_COMMAND || true),
