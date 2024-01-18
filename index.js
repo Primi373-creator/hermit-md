@@ -1,3 +1,6 @@
+const express = require('express');
+const app = express();
+const port = 8000;
 const client = require('./lib/client')
 
 const connect = async () => {
@@ -8,9 +11,12 @@ const connect = async () => {
  }
 }
 
-const app = express()
-app.listen(8080, () => {
- console.log('Server listening on port 8080')
-})
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
+
+app.listen(8000, () => {
+  console.log("Server is running on port 8000");
+});
 
 connect()
